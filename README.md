@@ -43,8 +43,37 @@ Before you begin, ensure you have met the following requirements:
 
 3. Run
 
-   ```sh
-   npm run start
+    ```sh
+    npm run start
+
+## Deployment Instructions
+
+1. Building for Production before deploy
+
+    ```sh
+    npm run build
+
+2. Preview the Production Build
+
+    ```sh
+    npm run preview
+
+3. Install Vercel Cli
+      
+     ```sh
+     npm install -g vercel
+
+4. Deploy Vercel
+      
+      ```sh
+      vercel
+      Login in to Vercel: Continue with Email
+      Enter your email address: your-email@gmail.com   ( email which login to Vercel)
+      Set up and deploy ?: yes
+      Which scope do you want to deploy ?: enter
+      Link to existing project: yes
+      What's the name of your existing project: task-management-project
+      
 
 ## Project Structure
 
