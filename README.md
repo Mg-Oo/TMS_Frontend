@@ -2,7 +2,11 @@
 
 ## Overview
 
-This project is a Task Management Project frontend application built using React and Vite. The project leverages state management for Redux, Tailwind CSS for styling, shadcn-ui for UI components, and react-icons for iconography.
+This project is a Task Management System frontend built using React + Vite. 
+The project leverages:
+  - Redux for global state management,
+  - Tailwind CSS for styling,
+  - Shadcn-ui for UI components, and react-icons for IconoGraphy.
 
 ## Features
 
