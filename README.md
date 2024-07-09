@@ -66,7 +66,7 @@ Before you begin, ensure you have met the following requirements:
 4. Deploy Vercel
       
       ```sh
-      vercel
+      vercel --prod
       Login in to Vercel: Continue with Email
       Enter your email address: your-email@gmail.com   ( email which login to Vercel)
       Set up and deploy ?: yes
