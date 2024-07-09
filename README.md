@@ -3,6 +3,7 @@
 ## Overview
 
 This project is a Task Management System frontend built using React + Vite. 
+
 The project leverages:
   - Redux for global state management,
   - Tailwind CSS for styling,
