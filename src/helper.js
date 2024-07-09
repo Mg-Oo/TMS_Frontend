@@ -15,3 +15,10 @@ export const isTokenExpired = (token) => {
 };
 
 export const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+export const shortenText = (text, maxLength = 10) => {
+    if (text.length > maxLength) {
+        return text.slice(0, maxLength) + '...';
+    }
+    return text;
+};

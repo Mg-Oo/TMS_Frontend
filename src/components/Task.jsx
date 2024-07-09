@@ -4,6 +4,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../com
 import { Button } from './ui/button';
 import { IoPerson } from 'react-icons/io5';
 import { format } from 'date-fns';
+import { shortenText } from '../helper';
 import { initialTask } from '../modules/task';
 import SubmitDialog from './SubmitDialog';
 import ConfirmDialog from './ConfirmDialog';
@@ -62,7 +63,7 @@ const Task = ({ loading, cardTask, users, updateTask, deleteTask }) => {
                         cardTask.status === 'Done' ? 'line-through text-gray-500' : 'text-slate-700'
                     } font-semibold`}
                 >
-                    {cardTask.title}
+                    {shortenText(cardTask.title)}
                 </h4>
                 {cardTask.dueDate && (
                     <span className="text-slate-500 text-xs p-1 px-2 bg-slate-100 rounded-sm">
