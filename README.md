@@ -1,4 +1,4 @@
-# Task Management Project (Frontend)
+# Task Management System Project Frontend (Vite + React + Redux)
 
 ## Overview
 
@@ -41,29 +41,29 @@ Before you begin, ensure you have met the following requirements:
     ```sh
     npm install
 
-3. Run
+3. Run the developmenat server:
 
     ```sh
     npm run start
 
 ## Deployment Instructions
 
-1. Building for Production before deploy
+1. Building for Production before deploy:
 
     ```sh
     npm run build
 
-2. Preview the Production Build
+2. Preview the Production Build:
 
     ```sh
     npm run preview
 
-3. Install Vercel Cli
+3. Install Vercel Cli:
       
      ```sh
      npm install -g vercel
 
-4. Create Vercel
+4. Create a Vercel Project:
       
       ```sh
       vercel
@@ -74,7 +74,7 @@ Before you begin, ensure you have met the following requirements:
       Link to existing project: yes
       What's the name of your existing project: task-management-project
 
-5. Deploy Vercel
+5. Deploy Vercel:
 
    ```sh
    vercel --prod
