@@ -1,4 +1,4 @@
-# Task Management Project
+# Task Management Project (Frontend)
 
 ## Overview
 
@@ -63,16 +63,21 @@ Before you begin, ensure you have met the following requirements:
      ```sh
      npm install -g vercel
 
-4. Deploy Vercel
+4. Create Vercel
       
       ```sh
-      vercel --prod
+      vercel
       Login in to Vercel: Continue with Email
       Enter your email address: your-email@gmail.com   ( email which login to Vercel)
       Set up and deploy ?: yes
       Which scope do you want to deploy ?: enter
       Link to existing project: yes
       What's the name of your existing project: task-management-project
+
+5. Deploy Vercel
+
+   ```sh
+   vercel --prod
       
 
 ## Project Structure
