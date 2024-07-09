@@ -25,8 +25,7 @@ This project is a Task Management Project frontend application built using React
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed Node.js and npm. You can download Node.js from [nodejs.org](https://nodejs.org/).
-- You have to clone first TMS_Backend repository and do instructions in README.md file.
+- Install Node.js and npm. You can download from [nodejs.org](https://nodejs.org/).
 
 ### Installation
 
