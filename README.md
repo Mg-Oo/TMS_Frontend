@@ -15,13 +15,12 @@ The project leverages:
   - Register a new user
   - Login with existing user email
   - Logout function
-  - JWT authentication request
 
 - **Task Management:**
   - Create a new task
   - Update an existing task
-  - Retrieve tasks 
   - Delete a task
+  - Retrieve tasks 
   - Search tasks by title
 
 ## Setup Instructions
